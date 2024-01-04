@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+ padding: 0;
+}
+nav {
+    background-color: black;
+    padding: 20px;
+    text-align:right;
+}
+
+nav button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-align: left;
+    /* text-decoration: none; 
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s; */
+}
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    align-items: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ .car-category {
+    background-color: whitesmoke;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+} 
+
+.car-category h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.car-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.car-category li {
+    padding: 5px 0;
+}
+
+.features {
+    padding: 20px;
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.feature h2,
+.feature p {
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .car-category {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .car-category h3 {
+        font-size: 20px;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .feature {
+        flex: 1 1 calc(33.333% - 20px);
+        margin-bottom: 0;
+    }
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 0 calc(25% - 20px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    /* float: right; */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.card .container {
+    padding: 10px;
+}
+
+.card h4 {
+    margin: 0;
+}
+.card button {
+    background-color: black;
+    color:whitesmoke;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* float: right; */
+   }
+   .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   }
+
+
+footer {
+    
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
